@@ -36,10 +36,6 @@ fun View.explode(endAction: () -> Unit = {}) {
     this.visibility = View.VISIBLE
     this.startAnimation(explodeAnim)
 
-    explodeAnim.apply {
-        alpha = 0f
-    }
-
     Handler(Looper.getMainLooper()).postDelayed({
         endAction()
     }, 500)
