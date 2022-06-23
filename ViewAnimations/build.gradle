@@ -42,7 +42,7 @@ afterEvaluate {
                 from components.release
                 groupId = 'com.github.Vinicius-O-Neves'
                 artifactId = 'view_animations'
-                version = '1.0.0'
+                version = '1.0.1'
             }
         }
     }

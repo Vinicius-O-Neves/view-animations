@@ -4,7 +4,6 @@ import android.os.Handler
 import android.os.Looper
 import android.view.View
 import android.view.animation.AnimationUtils
-import app.dealux.viewanimations.R
 
 fun View.fadeIn(duration: Long, endAction: () -> Unit = {}) = animate()
     .also { clearAnimation() }
